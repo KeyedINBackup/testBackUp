@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Top_Header.EmailNewsletter">
+      <class name="test.testNG001">
         <methods>
-          <include name="BrowserInitiation"/>
-          <include name="Email_Newsletter_002"/>
-          <include name="EOF"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="test001"/>
         </methods>
-      </class> <!-- Top_Header.EmailNewsletter -->
+      </class> <!-- test.testNG001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
